@@ -1,0 +1,18 @@
+
+POST https://localhost:5001/api/v1/User/signup HTTP/1.1
+content-type: application/json
+
+{
+  "Login":"Teste",
+  "Email":"test@test.com",
+  "Password":"passtest"
+}
+
+###
+POST https://localhost:5001/api/v1/User/login HTTP/1.1
+content-type: application/json
+
+{
+  "Login":"Teste",
+  "Email":"test@test.com"
+}
