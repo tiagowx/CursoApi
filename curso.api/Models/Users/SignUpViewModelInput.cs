@@ -10,7 +10,7 @@ namespace curso.api.Models.Users
     public class SignUpViewModelInput
     {
         [Required(ErrorMessage = "Esse campo está inválido")]
-        public string Login { get; set; }
+        public string Name { get; set; }
         [Required(ErrorMessage = "Esse campo está inválido")]
         public string Email { get; set; }
         [Required(ErrorMessage = "Esse campo está inválido")]
