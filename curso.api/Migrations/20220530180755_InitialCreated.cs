@@ -2,7 +2,7 @@
 
 namespace curso.api.Migrations
 {
-    public partial class BaseInitial : Migration
+    public partial class InitialCreated : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
