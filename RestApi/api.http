@@ -1,4 +1,14 @@
 
+GET https://localhost:5001/api/v1/cursos HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOlsiMSIsIlRpYWdvIiwidGlhZ293eEBnbWFpbC5jb20iXSwibmJmIjoxNjUzODcwNzc0LCJleHAiOjE2NTM5NTcxNzQsImlhdCI6MTY1Mzg3MDc3NH0.PW66nlLuCkj8WrZQx6S0cbCqoMclfi9AhiXNTZBRhBY
+
+{
+  "Login":"Teste",
+  "Email":"test@test.com",
+  "Password":"passtest"
+}
+###
 POST https://localhost:5001/api/v1/User/signup HTTP/1.1
 content-type: application/json
 
